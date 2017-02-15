@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"  content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>房态</title>
+		<link rel="stylesheet" href="css/roomstatus.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css" />
+		<script type="text/jscript" src="js/jquery-1.9.1.js"></script>
+		<script type="text/jscript" src="js/roomstatus.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<span>房态</span>
+		</div>
+		<div class="posi2">
+			<div class="test">
+				<div class="line"></div>
+				<div class="mind">
+					<div class="li">
+						<div class="listleft">
+							<span>楼区名称</span>
+						</div>
+						<div class="listright">
+							<select name="" id="">
+								<option value="1" select="selected">哈南分院A楼</option>
+								<option value="2">哈南分院B楼</option>
+							</select>	
+						</div>
+						<i class="fa fa-angle-right" aria-hidden="true" style="margin-bottom: 2px;font-size: 34px;line-height: 50px;color:#bfbfc5;margin-left: 5px;"></i>
+					</div>
+					<div class="li">
+						<div class="listleft">
+							<span>楼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;层</span>
+						</div>
+						<div class="listright">
+							<select name="" id="">
+								<option value="1" select="selected">全部</option>
+								<option value="2">一楼</option>
+							</select>	
+						</div>
+						<i class="fa fa-angle-right" aria-hidden="true" style="margin-bottom: 2px;font-size: 34px;line-height: 50px;color:#bfbfc5;margin-left: 5px;"></i>
+					</div>
+					<div class="li">
+						<div class="listleft">
+							<span>房间类型</span>
+						</div>
+						<div class="listright">
+							<select name="" id="">
+								<option value="1" select="selected">双人间</option>
+								<option value="2">单人间</option>
+							</select>	
+						</div>
+						<i class="fa fa-angle-right" aria-hidden="true" style="margin-bottom: 2px;font-size: 34px;line-height: 50px;color:#bfbfc5;margin-left: 5px;"></i>
+					</div>
+					<div class="li">
+						<div class="listleft">
+							<span>床位状态</span>
+						</div>
+						<div class="listright">
+							<select name="" id="">
+								<option value="1" select="selected">空闲</option>
+								<option value="2">已安排</option>
+							</select>	
+						</div>
+						<i class="fa fa-angle-right" aria-hidden="true" style="margin-bottom: 2px;font-size: 34px;line-height: 50px;color:#bfbfc5;margin-left: 5px;"></i>
+					</div>
+	
+				</div>
+				<div class="complete">查&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;询</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerlist" id="firstpage" status="0">
+				<img class="imgshow" src="images/icon_sy.png" alt="" style="display: block;"/>
+				<img class="imghide" src="images/icon_sy_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest " >首页</div>
+			</div>
+			<div class="footerlist" id="attention" status="1">
+				<img class="imgshow" src="images/icon_gz.png"  alt=""  style="display: block;"/>
+				<img class="imghide" src="images/icon_gz_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest" >关注</div>
+			</div>
+			<div class="footerlist" id="roomstatus" status="2">
+				<img class="imgshow" src="images/icon_ft.png"  alt=""  style="display: none;"/>
+				<img class="imghide" src="images/icon_ft_hover.png"  alt="" style="display: block;"/>
+				<div class="footertest active" >房态</div>
+			</div>
+			<div class="footerlist" id="own" status="3">
+				<img class="imgshow" src="images/icon_wd.png"  alt=""  style="display: block;"/>
+				<img class="imghide" src="images/icon_wd_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest">我的</div>
+			</div>
+		</div>
+	</body>
+</html>

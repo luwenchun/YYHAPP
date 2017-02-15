@@ -1,0 +1,1 @@
+var lastpage = sessionStorage.getItem("measuringRecord.html");

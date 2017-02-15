@@ -1,0 +1,97 @@
+body{
+	background: #efeff4;
+}
+.topleft{
+	width:10%;
+	height:50px;
+	line-height: 50px;
+	float:left;
+	color:#fff;
+	
+}
+.left{
+	height:50px;
+	line-height: 50px;
+	float:left;
+	padding-left: 10px;
+	font-size:34px;
+}
+.topleft span{
+	margin-left: 10px;
+	font-size: 20px;
+	float:left;
+}
+.topmind{
+	width:80%;
+	height:50px;
+	line-height: 50px;
+	color:#fff;
+	text-align: center;
+	font-size: 22px;
+	float:left;
+}
+.topright{
+	width:10%;
+	height: 50px;
+	float:left;
+}
+.test{
+	width:100%;
+	height:100%;
+	background: #eeedeb;
+}
+.mind{
+	width:97%;
+	height:88%;
+	padding-left: 3%;
+	background: #fff;
+}
+.listright{
+	font-size: 18px;
+}
+.tf{
+	position:relative;
+}
+.tf input{
+	width:95%;
+	height:32px;
+	margin-top: 5px;
+	padding-left: 12px;
+	font-size: 16px;
+	color:#787878;
+	line-height: 40px;
+	border:1px solid #d8d8d8;
+	
+}
+.li input{
+	width:95%;
+	height:32px;
+	line-height: 32px;
+	padding-left: 12px;
+	font-size: 16px;
+	color:#787878;
+	line-height: 32px;
+	border:1px solid #d8d8d8;
+	
+}
+.tf i{
+	font-size: 24px;
+	color:#b5b5b5;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+.complete{
+	margin-left: 3%;
+	width:94%;
+	color:#fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+	height:40px;
+	inline-height:40px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background:#eb6841;
+}

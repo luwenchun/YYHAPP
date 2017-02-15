@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"  content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>关注</title>
+		<link rel="stylesheet" href="css/facus.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css" />
+		<script type="text/jscript" src="js/jquery-1.9.1.js"></script>
+		<script type="text/jscript" src="js/facus.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="topleft" ></div>
+			<div class="topmind">关注</div>
+			<div class="topright">
+				<img class="note" id="add1"  src="images/button_add.png"/>
+			</div>
+			
+			<div id="add" class="hide">
+				<img src="images/add.png"/>
+				<div class="stats" style="position: absolute;top: 10px;font-size: 20px;margin-left: 15px;border-bottom: 1px solid #1583dc;">
+					<img src="images/star.png" style="width: 25px;vertical-align: middle;"/>&nbsp;&nbsp;添加关注
+				</div>
+				<div style="position: absolute;top: 60px;font-size: 20px;margin-left: 15px;">
+					<img src="images/restar.png" style="width: 25px;vertical-align: middle;"/>&nbsp;&nbsp;取消关注
+				</div>
+				
+			</div>
+		</div>
+		<div class="posi">
+
+			<div class="infor" style="overflow: hidden;">
+				
+				
+				<div class="serch">
+					<input type="text"  value="" style="width: 100%;height:100%;border: none ;" />
+					<div class="ser" style="margin-left: -30px;">
+						<img src="images/button_search.png" style="width: 20px;;"/>&nbsp;
+						<span style="color: #707070;font-size: 16px;position: absolute;top: -5px;width: 60px">搜索</span>
+					</div>
+					
+					
+				</div>
+				
+				<div><span style="font-size: 16px;margin:10px; margin-left: 15px;display: inline-block;">我关注列表</span></div>
+				<div class="serchli" style="height: 50px;width: 94%;margin-left: 0px;padding-left: 3%;padding-right: 3%;">
+					<div class="serchli1" style="padding-top: 20px;">
+						<div class="serchli1test">
+							<span >李思淼</span>
+						</div>
+						<div class="serchli1test" >
+							<span>床号：B-201</span>
+						</div>
+						<div class="serchli1test" >
+							<span>待服务<span style="color: red;">2</span>项</span>
+						</div>
+					</div>
+					
+				</div>
+			<div id="" style="background: #fff;width: 100%;">
+				<div class="serchli">
+					<div class="serchli1">
+						<div class="serchli1test" style="overflow: hidden;">
+							<div class="box">
+								<div class="inbox">
+									<span class="inboxli">生活</span>
+									<span class="inboxli">护理</span>
+								</div>
+							</div>
+							<span id="">&nbsp;打扫房间
+							</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;">
+							<span>09:00</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;width: 30.5%;">
+							<span class="dfw">已服务</span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="serchli">
+					<div class="serchli1" style="padding-top: 14px;">
+						<div class="serchli1test" style="overflow: hidden;">
+							<div class="box" style="border: 1px dashed #52b54b;">
+								<div class="inbox" style="background-color: #52b54b;">
+									<span class="inboxli">健康</span>
+									<span class="inboxli">护理</span>
+								</div>
+							</div><span id="">&nbsp;体征检查</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;">
+							<span>09:00</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;width: 30.5%;">
+							<span style="color: #f1863f;">未服务</span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="serchli">
+					<div class="serchli1" style="padding-top: 14px;">
+						<div class="serchli1test" style="overflow: hidden;">
+							<div class="box" style="border: 1px dashed #52b54b;">
+								<div class="inbox" style="background-color: #52b54b;">
+									<span class="inboxli">健康</span>
+									<span class="inboxli">护理</span>
+								</div>
+							</div><span>&nbsp;服药登记</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;">
+							<span>09:00</span>
+						</div>
+						<div class="serchli1test" style="line-height: 40px;width: 30.5%;">
+							<span style="color: #f1863f;">未服务</span>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+		
+			</div>
+		</div>
+		
+		
+		<div class="footer">
+			<div class="footerlist" id="firstpage" status="0">
+				<img class="imgshow" src="images/icon_sy.png" alt="" style="display: block;"/>
+				<img class="imghide" src="images/icon_sy_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest " >首页</div>
+			</div>
+			<div class="footerlist" id="attention" status="1">
+				<img class="imgshow" src="images/icon_gz.png"  alt=""  style="display: none;"/>
+				<img class="imghide" src="images/icon_gz_hover.png"  alt="" style="display: block;"/>
+				<div class="footertest active" >关注</div>
+			</div>
+			<div class="footerlist" id="roomstatus" status="2">
+				<img class="imgshow" src="images/icon_ft.png"  alt=""  style="display: block;"/>
+				<img class="imghide" src="images/icon_ft_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest" >房态</div>
+			</div>
+			<div class="footerlist" id="own" status="3">
+				<img class="imgshow" src="images/icon_wd.png"  alt=""  style="display: block;"/>
+				<img class="imghide" src="images/icon_wd_hover.png"  alt="" style="display: none;"/>
+				<div class="footertest">我的</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+

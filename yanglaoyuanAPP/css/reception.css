@@ -1,0 +1,122 @@
+body{
+	background: #efeff4;
+}
+.topleft{
+	width:10%;
+	height:50px;
+	line-height: 50px;
+	float:left;
+	color:#fff;
+	
+}
+.left{
+	height:50px;
+	line-height: 50px;
+	float:left;
+	padding-left: 10px;
+	font-size:34px;
+}
+.topleft span{
+	margin-left: 10px;
+	font-size: 20px;
+	float:left;
+}
+.topmind{
+	width:80%;
+	height:50px;
+	line-height: 50px;
+	color:#fff;
+	text-align: center;
+	font-size: 22px;
+}
+.topright{
+	width:10%;
+	height: 50px;
+	
+}
+.row{
+	width:97%;
+	height:auto;
+	padding-left: 3%;
+	background: #fff;
+}
+.li{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	border-bottom: 1px solid #efeff4;
+}
+.listleft{
+	width:30%;
+	height:50px;
+	line-height: 50px;
+	float:left;
+}
+.listleft span{
+	font-size: 18px;
+}
+.listright{
+	width:64%;
+	height:50px;
+	line-height: 50px;
+	float:left;
+}
+.listright select{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	margin-top:5px;
+	outline-style: none;
+	/*将默认的select选择框样式清除*/
+	 appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none; 
+	font-size: 16px;
+	text-align: left;
+	direction: rtl;//文字右对齐
+	border:none;
+	border:0;
+	float:left;
+	color: #787878;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none; 
+}
+.listright input{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	margin-top:5px;
+	outline-style: none;
+	border:none;
+	border:0;
+	float:left;
+	font-size: 16px;
+	text-align: right;
+	color: #787878;
+	/*display:block;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;*/
+}
+.li1{
+	width:100%;
+	min-height:50px;
+	line-height: 50px;
+}
+.li1 textarea{
+	width:135%;
+	min-height:60px;
+	line-height: 20px;
+	margin-top:5px;
+	float:left;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 10px;
+	color: #787878;
+	resize: vertical;
+	text-indent:25px;
+	/*resize : none;*/
+}

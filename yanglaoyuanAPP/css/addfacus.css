@@ -1,0 +1,182 @@
+body{
+	    background: #f0eff5;
+}
+.top{
+	position: relative;
+}
+#add{
+	position: absolute;
+	top: 53px;
+	right: 10px;
+	
+}
+#add>img{
+	width: 155px;
+}
+.topleft{
+	width:10%;
+	height:50px;
+	line-height: 50px;
+	float:left;
+	color:#fff;
+	
+}
+.left{
+	height:50px;
+	line-height: 50px;
+	float:left;
+	padding-left: 10px;
+	font-size:34px;
+}
+.topleft span{
+	margin-left: 10px;
+	font-size: 20px;
+	float:left;
+}
+.topmind{
+	width:79%;
+	height:50px;
+	line-height: 50px;
+	color:#fff;
+	text-align: center;
+	font-size: 22px;
+	float: left;
+}
+.topright{
+	width:10%;
+	height: 50px;
+	float: left;
+	
+	
+}
+.infor{
+	width:100%;
+	background: #f1eff4;
+}
+.time{
+	width:94%;
+	height:42px;
+	background: #fff;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.timeleft{
+	width:15%;
+	height:42px;
+	line-height: 42px;
+	font-size: 16px;
+	float:left;
+}
+.timeinput{
+	width:40%;
+	height:40px;
+	line-height:40px;
+	float:left;
+}
+.timeinput input{
+	width:90%;
+	height:26px;
+	line-height: 26px;
+	margin-top: 8px;
+	padding-left: 10px;
+	
+}
+.time span{
+	font-size: 16px;
+	line-height: 40px;
+	float:left;
+}
+.serch{
+	width:94%;
+	height:30px;
+	line-height: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #fff;
+	color:#fff;
+	text-align: center;
+	font-size: 22px;
+	position: relative;
+}
+.ser{
+	position: absolute;
+	top: 7px;
+	left: 40%;
+}
+.serchli{
+	width: 97%;
+    height: 70px;
+	border-bottom: 1px solid #eeeeee;
+	background: #fff;
+	margin-left: 3%;
+	
+}
+.serchli1{
+	width:100%;
+	font-size: 16px;
+	color:#000;
+}
+
+.note{
+	
+	width: 40%;
+	margin-top: 15px;
+}
+.serchli12{
+	width:100%;
+	height:15px;
+	line-height: 15px;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	color:#707070;
+}
+.serchli1test{
+	width: 33.33%;
+	height: 31px;
+	line-height: 15px;
+	float: left;
+	margin-bottom: -14px;
+	font-size: 16px;
+}
+.serchli1>.serchli1test:nth-child(2){
+	text-align: center;
+}
+.serchli1>.serchli1test:nth-child(3){
+	text-align: right;
+}
+.serchli1test1{
+	width:37%;
+	height:15px;
+	line-height: 15px;
+	float:left;
+}
+.serchli1test2{
+	width: 55%;
+	text-align: left;
+	height:15px;
+	line-height: 15px;
+	float:left;
+}
+.serchli1test3{
+	width: 8%;
+	text-align: left;
+	height:15px;
+	line-height: 15px;
+	float:left;
+}
+
+.serch1 {
+width: 94%;
+height: 40px;
+line-height: 40px;
+margin-top: 15px;
+margin-bottom: 15px;
+background: #ff5e32;
+color: #fff;
+text-align: center;
+font-size: 22px;
+position: absolute;
+bottom: 5px;
+left: 15px;
+}

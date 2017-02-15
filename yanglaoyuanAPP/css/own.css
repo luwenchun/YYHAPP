@@ -1,0 +1,174 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.top{
+	width:100%;
+	height:112px;
+	background: #2e93e5;
+}
+.topleft{
+	width:20%;
+	height:72px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:left;
+	padding-left: 7%;
+}
+.left img{
+	width:72px;
+	height:72px;
+}
+.topright{
+	width:68%;
+	height:72px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:left;
+	padding-left: 4%;
+}
+.user{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	float: left;
+	font-size: 22px;
+	color:#fff;
+}
+.position{
+	width:100%;
+	height:32px;
+	float: left;
+	font-size: 18px;
+	color:#fff;
+}
+.mind{
+	width:100%;
+	height:100%;
+	background: #f3f4f8;
+	overflow: hidden;
+}
+.line{
+	width:100%;
+	height:10px;
+	background: #f3f4f8;
+}
+.line2{
+	width:97%;
+	height:1px;
+	background: #f3f4f8;
+	margin-left: 3%;
+	float:left;
+}
+.li{
+	width:97%;
+	height:81px;
+	background: #fff;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:3%;
+}
+.li .left{
+	width:12%;
+	height:32px;
+	padding-left:4%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	float:left;
+}
+.li img{
+	width:32px;
+	height:32px;
+}
+.li .right{
+	width:81%;
+	height:80px;
+	line-height: 80px;
+	padding-left: 3%;
+	float: left;
+}
+.up{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-size: 18px;
+	padding-top: 10px;	
+}
+.down{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.rdw{
+	color:red;
+	font-size: 16px;
+}
+.li1{
+	width:97%;
+	height:51px;
+	background: #fff;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:3%;
+}
+.li1 .left{
+	width:12%;
+	height:32px;
+	padding-left:3%;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	float:left;
+}
+.li1 img{
+	width:32px;
+	height:32px;
+}
+.li1 .right{
+	width:82%;
+	height:50px;
+	line-height: 50px;
+	padding-left: 3%;
+	float: left;
+	font-size: 18px;
+}
+.other{
+	width:100%;
+	height:10px;
+	background: #f3f4f8;
+}
+
+.footer{
+	width:100%;
+	height:54px;
+	margin-top: 1px;
+	border-top:1px solid #d2d2d2;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	background:#f9f9f9 ;
+}
+.footerlist{
+	width:15%;
+	height:52px;
+	padding-top:5px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	float:left;
+}
+
+.footerlist img{
+	width:32px;
+	height:32px;
+}
+.footertest{
+	color:#707070;
+	
+}
+.active{
+	color: #2e93e5;
+}
